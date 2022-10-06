@@ -1,4 +1,4 @@
-import { Form } from 'bootstrap-4-react';
+import { Form, Button } from 'bootstrap-4-react';
 
 export default function FileUpload() {
     return (
@@ -9,6 +9,8 @@ export default function FileUpload() {
 	       		        <p>Drag and Drop to upload files</p>
 	       		    </div> 
 	       		</label>
+
+	       		<Button>Start Upload</Button>
 	       </Form>
 	    </div>
     );
