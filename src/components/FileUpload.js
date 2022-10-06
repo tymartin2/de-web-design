@@ -1,4 +1,4 @@
-import { Form, Button } from 'bootstrap-4-react';
+import { Form, Button, Progress } from 'bootstrap-4-react';
 
 export default function FileUpload() {
     return (
@@ -10,7 +10,10 @@ export default function FileUpload() {
 	       		    </div> 
 	       		</label>
 
-	       		<Button>Start Upload</Button>
+	       		<Progress mb="2">
+          			<Progress.Bar min="0" max="100" now="0" />
+        		</Progress>
+	       		<Button id="file-upload-button">Start Upload</Button>
 	       </Form>
 	    </div>
     );

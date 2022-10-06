@@ -6,7 +6,14 @@
   box-sizing: border-box;
 }
 
-
+#file-upload-button {
+  background-color: #4CABD3;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  width: 200px;
+  font-weight: bold;
+}
 
 #form-file-upload {
   justify-content: center;
@@ -60,6 +67,10 @@
     font-size: 70px;
     padding-left: 143px;
   }
+}
+
+#file-upload-section {
+  margin-bottom: 120px; 
 }
 
 @media screen and (min-width: 540px) {
