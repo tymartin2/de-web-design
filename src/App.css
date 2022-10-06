@@ -6,15 +6,29 @@
   box-sizing: border-box;
 }
 
+
+
+#form-file-upload {
+  justify-content: center;
+  height: 65px;
+  width: 415px;
+  max-width: 100%;
+  text-align: center;
+}
+
 #label-file-upload {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 12px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 2px;
-  border-radius: 1rem;
-  border-style: dashed;
-  border-color: #cbd5e1;
+  border-width: 3px;
+  border-radius: 0.5rem;
+  border-style: dotted;
+  border-color: #4CABD3;
   background-color: #f8fafc;
 }
 
@@ -45,6 +59,37 @@
     letter-spacing: -5px;
     font-size: 70px;
     padding-left: 143px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  #file-upload-section {
+    padding-left: 55px;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  #file-upload-section {
+    padding-left: 205px;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  #file-upload-section {
+    padding-left: 180px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #file-upload-section {
+    padding-left: 240px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #file-upload-section {
+    padding-left: 35%;
   }
 }
 
