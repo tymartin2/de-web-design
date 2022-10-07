@@ -6,6 +6,95 @@
   box-sizing: border-box;
 }
 
+.contact-section {
+  margin-top: 20%;
+}
+
+.contact-input-field {
+  border: 2px solid #4CABD3 !important;
+  font-family: 'Roboto Slab', serif;
+}
+
+#check-agree {
+  width: 25px;
+  height: 25px; 
+}
+
+#check-agree-label {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px; 
+}
+
+#contact-label {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: -1px;
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#contact-button {
+  background-color: #4CABD3; 
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  width: 200px;
+  font-weight: bold;
+  margin-left: 36%;
+}
+
+@media screen and (min-width: 390px) {
+  #contact-button {
+    margin-left: 39%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  #contact-button {
+    margin-left: 43%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #contact-button {
+    margin-left: 58%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #contact-button {
+    margin-left: 70%;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  #contact-button {
+    margin-left: 70%;
+  }
+}
+
+
+@media screen and (min-width: 1020px) {
+  #contact-button {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #contact-button {
+    margin-left: 73%;
+  }
+}
+
+
+#contact-footer {
+  margin-bottom: 10%;
+  margin-top: 5%; 
+}
+
 #progress-file-upload {
   height: 50%; 
   background-color: #9BBDF9; 
