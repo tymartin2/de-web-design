@@ -78,6 +78,28 @@
     margin-right: 0; 
   }
 
+/*footer*/
+  .sub-list {
+    margin-left: 5%; 
+  }
+
+  #footer-subtitle {
+    font-family: 'Roboto Slab', serif;
+    text-align: center; 
+    font-size: 19px;
+    font-weight: bold;  
+  }
+
+  #footer {
+    margin-right: 0; 
+    background-color: #4CABD3; 
+    height: 100%;
+  }
+
+  #footer-references {
+    padding: 5%;
+    background-color: #4CABD3; 
+  }
 
 
 /*navigation and hero*/

@@ -13,7 +13,7 @@ export default function NavBar() {
 		              <Nav.Link href="#">About Us</Nav.Link>
 		            </Nav.Item>
 		            <Nav.Item>
-		              <Nav.Link href="#">Contact</Nav.Link>
+		              <Nav.Link href="#contact-footer">Contact</Nav.Link>
 		            </Nav.Item>
 	            </Navbar.Nav>
 	        </Navbar.Collapse>
