@@ -10,7 +10,7 @@ export default function App() {
       <NavBar />
       <Hero />
       <FileUpload />
-      <Contact/>
+      <Contact />
     </>
   );
 };
