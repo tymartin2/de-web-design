@@ -10,8 +10,8 @@ export default function FileUpload() {
 	       		    </div> 
 	       		</label>
 
-	       		<Progress mb="2">
-          			<Progress.Bar min="0" max="100" now="0" />
+	       		<Progress id="progress-file-upload" mb="3">
+          			<Progress.Bar id="progress-file-upload-bar" min="0" max="100" now="55" />
         		</Progress>
 	       		<Button id="file-upload-button">Start Upload</Button>
 	       </Form>

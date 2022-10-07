@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+#progress-file-upload {
+  height: 50%; 
+  background-color: #9BBDF9; 
+}
+
+#progress-file-upload-bar {
+  background-color: #4CABD3; 
+}
+
 #file-upload-button {
   background-color: #4CABD3;
   color: white;
