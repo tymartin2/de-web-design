@@ -2,6 +2,7 @@ import { Row, Col } from 'bootstrap-4-react';
 import ContactUs from './footer/ContactUs';
 import OurLocation from './footer/OurLocation';
 import References from './footer/References';
+import Copyright from './footer/Copyright';
 
 export default function Contact() {
 	return(
@@ -17,6 +18,9 @@ export default function Contact() {
 			<Row id="footer">
 			   <Col col="sm-12 lg-6">
 	    	        <References />        		            	   
+				</Col>
+				<Col col="sm-12 lg-6">
+	    	        <Copyright />        		            	   
 				</Col>
 			</Row>
 		</>

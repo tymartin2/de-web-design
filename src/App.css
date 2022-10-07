@@ -101,6 +101,22 @@
     background-color: #4CABD3; 
   }
 
+  #message {
+    text-align: center; 
+    font-size: 15px;
+    font-weight: bold;  
+    margin-top: 8%;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  #copy {
+    font-family: 'Roboto Slab', serif;
+    text-align: center; 
+    font-size: 14px;
+    font-weight: bold;
+    color: white; 
+  }
+
 
 /*navigation and hero*/
 
